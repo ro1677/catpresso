@@ -1,0 +1,11 @@
+node_modules/
+test-ledger/
+logs/
+.git/
+.cache/
+build/
+dist/
+.next/
+coverage/
+tmp/
+*.log
