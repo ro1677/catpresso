@@ -41,9 +41,11 @@ yarn-error.log*
 next-env.d.ts
 #.env*.local
 
-# Ignore test-ledger logs and large database files
+# Ignore large database and log files
 test-ledger/
 test-ledger/rocksdb/
 test-ledger/snapshot-*
 test-ledger/*.log
+test-ledger/*.sst
 test-ledger/*.tar.zst
+
